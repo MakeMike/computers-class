@@ -1,7 +1,6 @@
-n = int(input())
 arrX = []
 arrY = []
-for i in range(n):
+for i in range(int(input())):
   arrX.append(input().split(",")[0])
   arrX.append(input().split(",")[1])
 maxX = max(arrX) + 1
